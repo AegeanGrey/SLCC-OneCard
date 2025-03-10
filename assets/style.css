@@ -1,0 +1,117 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    height: 80px;
+    contain: content;
+    background-color: rgba(129, 84, 37, 0.738);
+}
+
+header h1 {
+    display: inline;
+    padding-left: 20%;
+}
+
+header div {
+    float: right;
+    padding-right: 2%;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+header div ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.transition a:hover {
+    transition: 0.2s;
+    color: rgb(255, 226, 61);
+    font-weight: bold;
+}
+
+section {
+    contain: content;
+}
+
+.onecard-header {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: rgb(255, 226, 61);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.onecard {
+    padding-top: 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 4%;
+    background-color: rgb(255, 226, 61);
+    padding-bottom: 4%;
+}
+
+.onecard-online {
+    order: 1;
+    border-style: dashed;
+    max-width: 50%;
+    background-color: rgb(32, 173, 254);
+    border-radius: 2%;
+}
+
+.onecard-in-person {
+    order: 2;
+    border-style: dashed;
+    max-width: 50%;
+    background-color: rgb(32, 173, 254);
+    border-radius: 2%;
+}
+
+.uta-pass {
+    z-index: 2;
+    margin-top: 4%; 
+    margin-bottom: 4%;
+    position: sticky;
+    background-color: aqua;
+
+}
+
+#warning {
+    background-color: salmon;
+}
+
+.faq {
+    z-index: 3;
+    margin-top: 4%; 
+    margin-bottom: 4%;
+    position: sticky;
+    background-color: bisque;
+}
+
+#faq-question {
+    margin-top: 4%; 
+    margin-bottom: 4%;
+    text-align: center;
+}
+
+#faq-question h4 {
+    
+}
+
+footer {
+    margin-bottom: 10%;
+}
