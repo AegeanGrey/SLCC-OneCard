@@ -2,10 +2,14 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+body {
+    background-color: rgba(129, 84, 37, 0.738);
+}
+
 header {
     height: 80px;
     contain: content;
-    background-color: rgba(129, 84, 37, 0.738);
+    /* background-color: rgba(129, 84, 37, 0.738); */
 }
 
 header h1 {
@@ -55,6 +59,24 @@ section {
     width: 50%;
 }
 
+.onecard-explain {
+    background-color: rgb(255, 226, 61);
+}
+
+.onecard-card {
+    display: inline-block;
+    margin: auto;
+    width: 50%;
+    border-radius: 10px 10px 10px 10px;
+    background-color: rgb(32, 173, 254);
+}
+
+.card-header {
+    z-index: 1;
+    margin-left: 42%;
+    margin-right: 2%;
+}
+
 .onecard {
     padding-top: 4%;
     display: flex;
@@ -63,11 +85,12 @@ section {
     margin-bottom: 4%;
     background-color: rgb(255, 226, 61);
     padding-bottom: 4%;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 .onecard-online {
     order: 1;
-    border-style: dashed;
     max-width: 50%;
     background-color: rgb(32, 173, 254);
     border-radius: 2%;
@@ -75,31 +98,50 @@ section {
 
 .onecard-in-person {
     order: 2;
-    border-style: dashed;
+    padding-right: 10px;
     max-width: 50%;
     background-color: rgb(32, 173, 254);
     border-radius: 2%;
 }
 
-.uta-pass {
-    z-index: 2;
-    margin-top: 4%; 
-    margin-bottom: 4%;
-    position: sticky;
+.uta-pass-header {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
     background-color: aqua;
+    padding-top: 4%;
+    /* padding-bottom: 4%; */
+}
 
+.uta-pass {
+    text-align: center;
+    padding-top: 4%;
+    margin-bottom: 4%;
+    background-color: aqua;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 #warning {
+    margin: auto;
+    width: 50%;
+    border: 3px solid rgb(167, 23, 23);
+    padding: 10px;
     background-color: salmon;
 }
 
 .faq {
-    z-index: 3;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
     margin-top: 4%; 
     margin-bottom: 4%;
     position: sticky;
     background-color: bisque;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.faq h2 {
+    font-size: 34px;
 }
 
 #faq-question {
@@ -109,7 +151,11 @@ section {
 }
 
 #faq-question h4 {
-    
+    font-size: 20px;
+}
+
+#faq-question p {
+    font-size: 20px;
 }
 
 footer {
