@@ -64,11 +64,15 @@ section {
 }
 
 .onecard-card {
-    display: inline-block;
+    contain: content;
+    display: flex;
+    flex-direction: row;
     margin: auto;
-    width: 50%;
+    width: auto;
     border-radius: 10px 10px 10px 10px;
     background-color: rgb(32, 173, 254);
+    padding-left: 2%;
+    padding: 2%;
 }
 
 .card-header {
