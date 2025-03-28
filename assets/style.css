@@ -9,7 +9,6 @@ body {
 header {
     height: 80px;
     contain: content;
-    /* background-color: rgba(129, 84, 37, 0.738); */
 }
 
 header h1 {
@@ -113,7 +112,6 @@ section {
     border-top-right-radius: 200px;
     background-color: aqua;
     padding-top: 4%;
-    /* padding-bottom: 4%; */
 }
 
 .uta-pass {
@@ -131,6 +129,76 @@ section {
     border: 3px solid rgb(167, 23, 23);
     padding: 10px;
     background-color: salmon;
+}
+
+.utacard-card {
+    contain: content;
+    margin: auto;
+    width: auto;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 2%;
+    padding: 2%;
+}
+
+.utacard {
+    display: flex;
+    justify-content: baseline;
+    align-items: stretch;
+}
+
+.box1 {
+    flex: 1;
+    margin: 2%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(32, 173, 254);
+    
+}
+
+.box2 {
+    flex: 1;
+    margin: 2%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(32, 173, 254);
+}
+
+.box3 {
+    flex: 1;
+    margin: 2%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: rgb(32, 173, 254);
+}
+
+.resize-trax {
+    display: block;
+    height: auto;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.resize-fr {
+    display: block;
+    max-height: 55%;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.resize-bus {
+    display: block;
+    max-height: 100%;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
 }
 
 .faq {
